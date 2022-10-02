@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(136, 168, 226);
+}
+img  {
+    width: 200px;
+    height: 200px;
+}
+
+hr {
+    color: black;
+}
+h2 {
+    color: rgb(49, 107, 184);
+}
+
+h3 {
+    color: darkblue;
+}

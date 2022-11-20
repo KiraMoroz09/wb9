@@ -1,0 +1,25 @@
+.wrapper {
+    height: 500px;
+    display: flex;
+    min-width: 400px;
+}
+
+.left {
+    height: 400px;
+    width: 60%;
+    background-color: blue;
+}
+
+.right {
+    height: 400px;
+    width: 40%;
+    background-color: hwb(240 21% 50%);
+    color: aliceblue;
+}
+
+@media screen  and (max-width:1600px) {
+    .wrapper {
+        display: block;
+       
+    }
+}

@@ -1,0 +1,222 @@
+body {
+    background: #000 url(https://oir.mobi/uploads/posts/2022-08/thumbs/1661448576_46-oir-mobi-p-chernii-fon-s-pilyu-instagram-53.jpg); /* Фоновый цвет и фоновый рисунок*/
+    color: #fff; /*Цвет текста на странице*/
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+  }
+
+  #side-checkbox {
+    display: none;
+  }
+  .side-panel {
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: -360px;
+    background: #8d2020;
+    transition: all 0.5s;   
+    width: 320px;
+    height: 100vh;
+    box-shadow: 10px 0 20px rgba(0,0,0,0.4);
+    color: #FFF;
+    padding: 40px 20px;
+  }
+  .side-title {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #a86964;
+  }
+  
+  
+  
+  /* Оформление кнопки на странице */
+  .side-button-1-wr {
+    text-align: right; /* Контейнер для кнопки, чтобы было удобнее ее разместить */
+    position: fixed;
+     top: 10px;
+     right: 10px;
+  }
+  .side-button-1 {
+    display: inline-block;
+  }
+  .side-button-1 .side-b {
+    margin: 8px;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 2px 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-family: 'Roboto', Тahoma, sans-serif;
+    background: #884141;
+    cursor: pointer; 
+    border: 2px solid #863535;
+  }
+  .side-button-1 .side-b:hover,
+  .side-button-1 .side-b:active,
+  .side-button-1 .side-b:focus {
+    color: #FFF;
+  }
+  .side-button-1 .side-b:after,
+  .side-button-1 .side-b:before {
+    position: absolute;
+    height: 4px;
+    left: 50%;
+    bottom: -6px;
+    content: "";
+    transition: all 280ms ease-in-out;
+    width: 0;
+  }
+  .side-button-1 .side-open:after,
+  .side-button-1 .side-open:before {
+    background: rgb(221, 120, 120);
+  }
+  .side-button-1 .side-close:after,
+  .side-button-1 .side-close:before {
+    background: rgb(230, 30, 30);
+  }
+  .side-button-1 .side-b:before {
+    top: -10px;
+  }
+  .side-button-1 .side-b:hover:after,
+  .side-button-1 .side-b:hover:before {
+    width: 100%;
+    left: 0;
+  }
+  /* Переключатели кнопки 1 */
+  .side-button-1 .side-close {
+    display: none;
+  }
+  #side-checkbox:checked + .side-panel + .side-button-1-wr .side-button-1 .side-open {
+    display: none;
+  }
+  #side-checkbox:checked + .side-panel + .side-button-1-wr .side-button-1 .side-close {
+    display: block;
+  }
+  #side-checkbox:checked + .side-panel {
+    left: 0;
+  }
+  /* Оформление кнопки на панеле */
+  .side-button-2 {
+    font-size: 30px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+    transform: rotate(45deg);
+    color: #000000;    
+    transition: all 280ms ease-in-out;    
+  }
+  .side-button-2:hover {
+    transform: rotate(45deg) scale(1.1);    
+    color: rgb(255, 255, 255);
+  }
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+ 
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Адаптивный макет - когда экран меньше 800 пикселей в ширину, сделайте два столбца стеком друг на друга, а не рядом друг с другом (и измените направление-сделайте столбец "корзина" сверху) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+.reg {
+    display: block;
+    margin-left: 1300px;
+    margin-top: 60px;
+}
+
+.slider {
+    
+    width: 400px;
+    margin-left: -1200px;
+    margin-top: -560px;
+  }
+
+  .knock {
+      display: block;
+      color: rgba(0, 0, 0, 0.397);
+      user-select: none; /* Убираем текстовое выделение */
+      text-decoration: none;	/* Убираем подчеркивание */
+      outline: none; /* Убираем контур вокруг ссылки */
+      background-color: #801e1e; /* Цвет фона */
+      padding: 1em 2em; /* Отступ от текста до рамки */
+      margin-left: -50px;
+      margin-top: 15px;
+      }
+     
+     

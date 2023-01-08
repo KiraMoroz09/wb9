@@ -1,0 +1,444 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  background: #000 url(https://oir.mobi/uploads/posts/2022-08/thumbs/1661448576_46-oir-mobi-p-chernii-fon-s-pilyu-instagram-53.jpg); /* Фоновый цвет и фоновый рисунок*/
+  color: #fff; /*Цвет текста на странице*/
+  background-attachment: fixed; /* Фон страницы фиксируется */
+  background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+  
+}
+
+
+
+  .about-content {
+   width: 410px;
+   font-size: 22px;
+   line-height: 24px;
+  
+ }
+
+  .about-content p {
+   margin: 0px;
+   margin-bottom: 2px auto;
+   padding: 11px;
+ }
+  .container {
+  width: 490px;
+  margin: 0 auto;
+
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-width: 640px;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Verdana", "Tahoma", sans-serif;
+  font-size: 14px;
+  line-height: 8px;
+  color: #ffffff;
+  background: url(https://oir.mobi/uploads/posts/2022-08/thumbs/1661448576_46-oir-mobi-p-chernii-fon-s-pilyu-instagram-53.jpg );
+}
+
+.section-title {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+a {
+  color: #ffffffb2;
+}
+
+a:focus {
+  outline-color: #ffffff;
+}
+
+.page-header {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 110px;
+  background-color:  #273746;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  background-size:1090px;
+  display:flex;          
+  height: 605px; /* Высота шапки */         
+  background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/capsule_616x353.jpg?t=1656615305);      
+   margin-right: 785px;                 
+}
+
+.page-header .container {
+  padding-top: 5px;
+  padding-bottom: 4px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  width: 100%;
+
+}
+
+.page-header a {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.page-title {
+  margin: 0;
+  margin-bottom: 4px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.theme-button {
+  position: relative;
+  margin-top: 100px;
+  padding-top: 7px;
+  padding-right: 20px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  font-size: 12px;
+  border-radius: 21px;
+  background-color: transparent;
+  cursor: pointer;
+  color: black;
+  border: 1px solid black;
+  margin-left: -500px
+}
+
+.theme-button:active {
+  opacity: 0.8;
+}
+
+.theme-button:focus,
+.theme-button:hover {
+  color: #ffffff;
+  background-color: #4953A8;
+}
+.theme-button:focus {
+  outline-color: #b6aaff;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 32px;
+ }
+
+.about-image {
+   width: 147px;
+   height: 147px;
+   border-radius: 50%;
+ }
+
+.status {
+  margin-bottom: 32px;
+}
+
+.status p {
+  margin: 0;
+  padding-top: 12px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  border-radius: 32px 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: italic;
+  background-color: #ffffff;
+}
+
+.contacts {
+  margin-bottom: 82px;
+}
+
+.contacts img {
+  width: 100%;
+  height: 100%;
+  margin-right: 24px;
+}
+
+.contacts p {
+  margin: 0;
+  margin-bottom: 12px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+p.contacts-name {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.contacts a {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.page-footer {
+  margin-top: auto;
+  color: #ffffff;
+  background-color: #A52A2A ;
+}
+
+.page-footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 14px;
+}
+
+.page-footer p {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes fade {
+    /* Устанавливаем и изменяем степень прозрачности: */
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.mine {
+  font-size: 20px;
+  padding: 55px;
+  margin-left: 515px;
+}
+
+.mine img {
+  width: 30px;
+  height: 30px;
+}
+
+.world {
+  margin:   px;
+  height: 300px;
+  margin-left: -500px
+
+ }
+
+ .world .tawawa {
+  line-height: 33px;
+  padding: 25px;
+}
+
+.tawawa img {
+  width: 50px;
+  height: 40px;
+}
+
+.gav {
+   padding: 25px;
+   line-height: 33px;
+   border-radius: 1222px;
+}
+
+.piople {
+  margin-left: 220px; 
+}
+
+.piople iframe {
+  width:360px;
+  height:215px;
+  margin-left:-100px;
+}
+
+.fiop {
+   margin-left: 600px;
+ 
+  
+}
+
+.fiop iframe {
+  width:360px;
+  height: 215px;
+  margin-left:-50px;
+}
+
+.asset {
+  margin-left: 1050px;
+
+}
+.asset iframe {
+  width: 360px;
+  height: 215px;
+  margin-left: -50px;
+  
+}
+
+#side-checkbox {
+  display: none;
+}
+.side-panel {
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  left: -360px;
+  background: #8d2020;
+  transition: all 0.5s;   
+  width: 320px;
+  height: 100vh;
+  box-shadow: 10px 0 20px rgba(0,0,0,0.4);
+  color: #FFF;
+  padding: 40px 20px;
+}
+.side-title {
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #a86964;
+}
+
+
+
+/* Оформление кнопки на странице */
+.side-button-1-wr {
+  text-align: right; /* Контейнер для кнопки, чтобы было удобнее ее разместить */
+  position: fixed;
+   top: 10px;
+   right: 10px;
+}
+.side-button-1 {
+  display: inline-block;
+}
+.side-button-1 .side-b {
+  margin: 8px;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase; 
+  font-family: 'Roboto', Тahoma, sans-serif;
+  background: #884141;
+  cursor: pointer; 
+  border: 2px solid #863535;
+}
+.side-button-1 .side-b:hover,
+.side-button-1 .side-b:active,
+.side-button-1 .side-b:focus {
+  color: #FFF;
+}
+.side-button-1 .side-b:after,
+.side-button-1 .side-b:before {
+  position: absolute;
+  height: 4px;
+  left: 50%;
+  bottom: -6px;
+  content: "";
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+.side-button-1 .side-open:after,
+.side-button-1 .side-open:before {
+  background: rgb(221, 120, 120);
+}
+.side-button-1 .side-close:after,
+.side-button-1 .side-close:before {
+  background: rgb(230, 30, 30);
+}
+.side-button-1 .side-b:before {
+  top: -10px;
+}
+.side-button-1 .side-b:hover:after,
+.side-button-1 .side-b:hover:before {
+  width: 100%;
+  left: 0;
+}
+/* Переключатели кнопки 1 */
+.side-button-1 .side-close {
+  display: none;
+}
+#side-checkbox:checked + .side-panel + .side-button-1-wr .side-button-1 .side-open {
+  display: none;
+}
+#side-checkbox:checked + .side-panel + .side-button-1-wr .side-button-1 .side-close {
+  display: block;
+}
+#side-checkbox:checked + .side-panel {
+  left: 0;
+}
+/* Оформление кнопки на панеле */
+.side-button-2 {
+  font-size: 30px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 3px;
+  right: 3px;
+  cursor: pointer;
+  transform: rotate(45deg);
+  color: #000000;    
+  transition: all 280ms ease-in-out;    
+}
+.side-button-2:hover {
+  transform: rotate(45deg) scale(1.1);    
+  color: rgb(255, 255, 255);
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Neucha', cursive;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 20px;
+  padding: 100px;
+}
+
+figure {
+  margin: 0;
+  padding: 1px;
+  background: rgb(0, 0, 0);
+}
+
+img {
+  width: 100%;
+}
+
+.scale {
+  display: inline-block; /* Строчно-блочный элемент */
+  overflow: hidden; /* Скрываем всё за контуром */
+ }
+ .scale img {
+  width: 600px;
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+  color: rgba(0, 0, 0, 0.171);
+ }
+ .scale img:hover {
+  transform: scale(1.1); /* Увеличиваем масштаб */
+ }
+
+ .wead img {
+  margin-top: -16px;
+ }
